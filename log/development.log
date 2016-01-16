@@ -714,3 +714,63 @@ Migrating to CreateProducts (20160116070056)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20160116070056')
   [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:18', 'http://image.eiga.k-img.com/images/movie/81041/poster2/200.jpg?1442197652', 'の・ようなもの　のようなもの', '2016-01-16 09:35:18')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:18', 'http://image.eiga.k-img.com/images/movie/79815/poster2/200.jpg?1447319044', '白鯨との闘い', '2016-01-16 09:35:18')[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:18', 'http://image.eiga.k-img.com/images/movie/83683/poster2/200.jpg?1451015228', '口裂け女 in L.A.', '2016-01-16 09:35:18')
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:18', 'http://image.eiga.k-img.com/images/movie/81961/poster2/200.jpg?1450144764', 'よしもと新喜劇　映画「西遊喜」', '2016-01-16 09:35:18')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:18', 'http://image.eiga.k-img.com/images/movie/82673/poster2/200.jpg?1452138075', '最愛の子', '2016-01-16 09:35:18')
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:18', 'http://image.eiga.k-img.com/images/movie/83127/poster2/200.jpg?1445220677', 'ボクソール★ライドショー　恐怖の廃校脱出！', '2016-01-16 09:35:18')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:19', 'http://image.eiga.k-img.com/images/movie/82709/poster2/200.jpg?1446603476', '縁 The Bride of Izumo', '2016-01-16 09:35:19')
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:20', 'http://image.eiga.k-img.com/images/movie/81254/poster2/200.jpg?1442197476', '殺されたミンジュ', '2016-01-16 09:35:20')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:20', 'http://image.eiga.k-img.com/images/movie/83184/200x133.jpg?1451964529', '犬を連れた女', '2016-01-16 09:35:20')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:20', 'http://image.eiga.k-img.com/images/movie/82300/poster2/200.jpg?1451286078', 'インシディアス　序章', '2016-01-16 09:35:20')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:20', 'http://image.eiga.k-img.com/images/movie/83659/poster2/200.jpg?1451011393', 'INFINI インフィニ', '2016-01-16 09:35:20')
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:21', 'http://image.eiga.k-img.com/images/movie/83611/poster2/200.jpg?1449715626', 'エリザベス　神なき遺伝子', '2016-01-16 09:35:21')[0m
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:21', 'http://image.eiga.k-img.com/images/movie/82634/poster2/200.jpg?1438583766', '空人', '2016-01-16 09:35:21')
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:21', 'http://image.eiga.k-img.com/images/movie/83088/poster2/200.jpg?1442567921', 'シンドバッド　魔法のランプと動く島', '2016-01-16 09:35:21')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:21', 'http://image.eiga.k-img.com/images/movie/83084/poster2/200.jpg?1443077357', '千年医師物語　ペルシアの彼方へ', '2016-01-16 09:35:21')
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:21', 'http://image.eiga.k-img.com/images/movie/83654/poster2/200.jpg?1449636581', 'デビルズ・シティ', '2016-01-16 09:35:21')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:21', 'http://image.eiga.k-img.com/images/movie/83644/poster2/200.jpg?1450150527', 'バンド・コールド・デス', '2016-01-16 09:35:21')
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:21', 'http://image.eiga.k-img.com/images/movie/83281/poster2/200.jpg?1447138599', 'バーバリアンズ　セルビアの若きまなざし', '2016-01-16 09:35:21')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:21', 'http://image.eiga.k-img.com/images/movie/83702/poster2/200.jpg?1449453375', 'ふたりの死刑囚', '2016-01-16 09:35:21')
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `products` (`created_at`, `image_url`, `title`, `updated_at`) VALUES ('2016-01-16 09:35:21', 'http://image.eiga.k-img.com/images/movie/82656/200x133.jpg?1452591794', 'METライブビューイング2015-16 ベルク「ルル」', '2016-01-16 09:35:21')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
