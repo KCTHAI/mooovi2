@@ -22,6 +22,7 @@
                 </h2>
               </header>
               <ul style="padding: 0">
+                <% @products.each do |product| %>
                 <li style="border-bottom: dotted 1px">
                   <div class="thumbnail__caption">
                     <h3 class="text-xsmall text-overflow" title="テスト太郎">
@@ -35,6 +36,7 @@
                     </p>
                   </div>
                 </li>
+                <% end %>
               </ul>
             </div>
           </article>

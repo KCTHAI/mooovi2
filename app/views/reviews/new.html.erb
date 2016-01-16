@@ -35,8 +35,8 @@
             </div>
             <%= form_for [@product, @review] do |f| %>
               <div style="margin: 8px 0">
-                <%= f.label :ニックネーム, style: { 'margin-right' => 8 } %>
-                <%= f.text_field :nickname, placeholder: 'ニックネーム' %>
+                <%= f.label :nickname, style: { 'margin-right' => 8 } %>
+                <%= f.text_field :nickname, placeholder: 'nickname', value: '' %>
               </div>
               <div style="margin: 8px 0">
                 <%= f.label :評価, style: { 'margin-right' => 8 } %>
